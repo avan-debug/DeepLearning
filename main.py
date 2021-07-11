@@ -12,9 +12,6 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    a = [[1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5, 6]]
-    b = np.array(a)
-    c = b.reshape((2, 6))
-    print(c.shape[0])
-
+    a = np.exp(1)
+    print(a)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
